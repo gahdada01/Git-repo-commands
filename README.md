@@ -11,13 +11,15 @@ $ cd foldername
 $ git init
 	- to initialise git
 
-project version.
+#### project version.
+```ruby
 $ git add .
 $ git status
  - git status to compare your  updated version to the master 
 $ git commit -m “message”
 $ git remote add origin https://github.com/gahdada01/meanauth_local.git
 $ git push -u origin master
+```
 
 …or push an existing repository from the command line
 
@@ -31,16 +33,16 @@ or
 $ git remote set-url --add --push origin https://sampleRemote.git
 
 git remote -v
-# View current remotes
+### View current remotes
 origin  https://github.com/OWNER/REPOSITORY.git (fetch)
 origin  https://github.com/OWNER/REPOSITORY.git (push)
 destination  https://github.com/FORKER/REPOSITORY.git (fetch)
 destination  https://github.com/FORKER/REPOSITORY.git (push)
 
 git remote rm destination
-# Remove remote
+### Remove remote
 git remote -v
-# Verify it's gone
+### Verify it's gone
 origin  https://github.com/OWNER/REPOSITORY.git (fetch)
 origin  https://github.com/OWNER/REPOSITORY.git (push)
 
